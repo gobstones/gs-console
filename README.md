@@ -9,6 +9,6 @@ bower update
 
 grunt server
 
-# Or 
+Or 
 
 ./build

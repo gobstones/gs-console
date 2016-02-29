@@ -1,0 +1,4 @@
+{
+  "name": "gs-console-demo",
+  "imports": ["gs-console.html"]
+}

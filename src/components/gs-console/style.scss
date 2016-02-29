@@ -1,0 +1,33 @@
+:host {
+  padding: 10px;
+  font-family: "Courier New";
+  line-height: 25px;
+  word-break:break-all;
+
+  .consoleContent {
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+  }
+
+  .default {
+    color: black;
+  }
+
+  .success {
+    color: #5cb85c;
+  }
+
+  .warning {
+    color: #f0ad4e;
+  }
+
+  .info {
+    color: #5bc0de;
+  }
+
+  .error {
+    color: #d9534f;
+  }
+
+}
