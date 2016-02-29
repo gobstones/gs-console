@@ -1,6 +1,6 @@
 {
   "name": "gs-console",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "authors": [
     "Nazareno Castro <nazarenomartincastro@gmail.com>"
   ],
@@ -15,7 +15,7 @@
   "ignore": [
     "**/.*",
     "node_modules",
-    "staging/bower_components",
+    "bower_components",
     "test",
     "tests"
   ],
