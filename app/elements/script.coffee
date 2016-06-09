@@ -17,7 +17,8 @@ Polymer
       message.text = "-> " + message.text
       this._powerfulLog(message)
     else
-      console.log {error: 'Me acaban de pasar un mensaje desconocido', msg: message}
+      console.log {error: 'Me acaban de pasar un mensaje desconocido'
+                    ,msg: message}
 
   _powerfulLog:(message) ->
-    this.push('_msgs', message) 
+    this.push('_msgs', message)

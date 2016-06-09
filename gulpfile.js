@@ -341,6 +341,16 @@ gulp.task('default', ['clean'], function (cb) {
 // Adds tasks for `gulp test:local` and `gulp test:remote`
 require('web-component-tester').gulp.init(gulp);
 
+
+//CoffeeLint
+var coffeelint = require('gulp-coffeelint');
+ 
+gulp.task('lint', function () {
+    gulp.src('./app/**/*.coffee')
+        .pipe(coffeelint())
+        .pipe(coffeelint.reporter())
+});
+
 // Load custom tasks from the `tasks` directory
 try {
   require('require-dir')('tasks');
