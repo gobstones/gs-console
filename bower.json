@@ -10,14 +10,12 @@
     "polymer",
     "gobstones"
   ],
-  "license": "MIT",
-  "homepage": "index.html",
+  "main": "gs-console.html",
+  "license": "http://gobstones.github.io/LICENSE.txt",
+  "homepage": "https://github.com/gobstones/gs-console/",
   "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    "/.*",
+    "/test/"
   ],
   "dependencies": {
     "polymer": "Polymer/polymer#^1.2.0",
